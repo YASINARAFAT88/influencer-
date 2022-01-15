@@ -259,3 +259,23 @@ hr{
     font-size: 1.5em;
     padding: 10px 10px;
 }
+
+/* ---------------
+     Footer End
+------------------ */
+
+  /* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    .header-section{
+        width: 100%;
+    }
+    .head-parent{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .parent, .creative-parent{
+        display:none;
+    }
+}
