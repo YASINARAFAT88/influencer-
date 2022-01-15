@@ -296,10 +296,20 @@ hr{
         margin: 20px 45px;
     }
 
-    
+
     .creative-parent{
         display:none;
     }
 }
 
 
+
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+.shopping-card{
+    margin-left: 25px;
+}
