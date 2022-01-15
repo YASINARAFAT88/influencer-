@@ -269,7 +269,6 @@ hr{
 @media only screen and (max-width:688px) {
     .header-section{
         width: 100%;
-        background-color: red;
     }
     .head-parent{
         display: flex;
@@ -294,8 +293,11 @@ hr{
     .images {
         width: 240px;
         height: 259px;
+        margin: 20px 45px;
     }
-    .parent, .creative-parent{
+
+    
+    .creative-parent{
         display:none;
     }
 }
