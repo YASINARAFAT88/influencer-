@@ -295,11 +295,6 @@ hr{
         height: 259px;
         margin: 20px 45px;
     }
-
-
-    .creative-parent{
-        display:none;
-    }
 }
 
 
@@ -312,4 +307,19 @@ hr{
 }
 .shopping-card{
     margin-left: 25px;
+}
+
+.creative-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about-me {
+    width: 385px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+.Registretion {
+    width: 380px;
+    margin-left: 6px;
 }
