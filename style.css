@@ -145,15 +145,66 @@ hr{
 }
 
 /*--------- Creative part --------*/
+.creative-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .about-me{
-    
+    width: 400px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+.name{
+    margin: 0;
+}
+.position{
+    margin: 0;
 }
 .infor-mation{
     max-width: 1100px;
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    color: white;
+    color: #3A3A3A;
+}
+.my-detail{
+    font-weight: 600;
+    font-size: 16px;
+}
+.images{
+    width: 250px;
+    height: 270px;
+}
+.btn{
+    color: blanchedalmond;
+    background-color: purple;
+    width: 150px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-weight: 800;
+    font-size: 24px;
+    border-radius: 10px;
+    animation-name: btn;
+    animation-duration: 3s linear;
+    animation-iteration-count: infinite;
+}
+.btn:hover{
+    transition: 3s ease-in;
+    width: 250px;
+    padding: 10px;
+    cursor: pointer;
+}
+@keyframes btn {
+    0%   {background-color: purple;}
+    25%  {background-color: #E02C6D;}
+    50%  {background-color: rgb(162, 0, 255);}
+    100% {background-color: rgb(95, 47, 109);}
+  }
+
+.Registretion{
+    width: 400px;
 }
 
 /*---------------------
